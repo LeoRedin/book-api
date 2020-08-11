@@ -1,10 +1,5 @@
 require('dotenv/config')
 
-console.log('host', process.env.DB_HOST)
-console.log('user', process.env.DB_USER)
-console.log('pass', process.env.DB_PASS)
-console.log('db', process.env.DB_NAME)
-
 module.exports = {
   dialect: 'postgres',
   host: process.env.DB_HOST,

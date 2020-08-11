@@ -18,7 +18,7 @@ module.exports = {
         allowNull: false,
       },
       price: {
-        type: Sequelize.NUMBER,
+        type: Sequelize.INTEGER,
         allowNull: false,
       },
       published_at: {
